@@ -1,11 +1,15 @@
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-image: linear-gradient(rgb(20, 182, 5), rgb(9, 117, 32)); 
+    background-color: #333333;
     position: fixed;
     top: 0;
     width: 100%;
 }
-
+/*  
+    99, 51, 177  |  #6333b1 -- Light Purple
+    62, 6, 126   |  #3e067e -- Dark Purple
+*/
 .navbar a {
     float: left;
     display: block;
@@ -16,11 +20,12 @@
 }
 
 .navbar a:hover {
-    background: #ddd;
+    background: rgba(184, 184, 184, 0.5);
     color: black;
 }
 
 .main {
+    color: #ffffff;
     margin-top: 30px;
     font-family: 'Open Sans', sans-serif;
 }

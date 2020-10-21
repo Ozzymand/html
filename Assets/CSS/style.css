@@ -11,7 +11,7 @@
     display: block;
     color: #ffffff;
     text-align: center;
-    padding: 20px 15px;
+    padding: 1.2rem 2rem;
     text-decoration: none;
 }
 
@@ -22,6 +22,7 @@
 
 .main {
     margin-top: 30px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .container {
@@ -34,6 +35,13 @@
 
 .parallax {
     background: url("/Assets/Images/Background.png") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+}
+
+.parallax2 {
+    background: url("/Assets/Images/Background2.png") no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     height: 500px;

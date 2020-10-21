@@ -1,9 +1,35 @@
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 15px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.main {
+    margin-top: 30px;
+}
+
 .container {
     max-width: 960px;
     margin: 0 auto;
-    background: #1b1b1b;
+    background: #1d1d1d;
     font-size: 24px;
-    padding: 25px;
+    padding: 0px;
 }
 
 .parallax {

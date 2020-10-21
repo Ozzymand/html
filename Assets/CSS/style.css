@@ -4,7 +4,9 @@
     background-color: #333333;
     position: fixed;
     top: 0;
-    width: 100%;
+    padding: 0;
+    width: 98.1%;
+    max-width: 960px;
 }
 /*  
     99, 51, 177  |  #6333b1 -- Light Purple

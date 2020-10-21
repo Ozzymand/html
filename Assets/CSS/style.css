@@ -1,11 +1,11 @@
 .navbar {
-    overflow: hidden;
+    overflow: auto;
     background-image: linear-gradient(rgb(20, 182, 5), rgb(9, 117, 32)); 
     background-color: #333333;
     position: fixed;
     top: 0;
     padding: 0;
-    width: 98.1%;
+    width: 100%;
     max-width: 960px;
 }
 /*  

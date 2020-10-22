@@ -45,6 +45,7 @@ html {
     background: #1d1d1d;
     font-size: 24px;
     padding: 0px;
+    text-align: center;
 }
 
 /* Background image parallax */
@@ -97,3 +98,56 @@ html {
   
 .yes {background-color: #4CAF50;}   /* Green */
 .no {background-color: #f32121;}    /* Red */
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.graph-container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.pros {
+  text-align: center; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.eco {
+    color: black;
+    width: 0%; 
+    background-color: #4CAF50;
+}
+.price {
+    width: 100%; 
+    background-color: #2196F3;
+} 
+.power {
+    width: 85%;
+    background-color: #f44336;
+} 
+.happiness {
+    width: 100%; 
+    background-color: #ffee00;
+    color: black;
+} 
+
+.AboutUs {
+    text-align: center;
+}
+
+.btn {
+    background-color: #1d1d1d;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+  
+.btn:hover {opacity: 1}

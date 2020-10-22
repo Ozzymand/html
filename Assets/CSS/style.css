@@ -31,6 +31,10 @@ html {
     z-index: 1;
 }
 
+.contact {
+    float: right;
+}
+
 /* Font main settings */
 .main {
     color: #ffffff;

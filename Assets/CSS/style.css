@@ -1,3 +1,8 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navbar settings */
 .navbar {
     overflow: hidden;
     background-image: linear-gradient(rgb(20, 182, 5), rgb(9, 117, 32)); 
@@ -5,11 +10,10 @@
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1;
 }
-/*  
-    99, 51, 177  |  #6333b1 -- Light Purple
-    62, 6, 126   |  #3e067e -- Dark Purple
-*/
+
+/* Navbar settings */
 .navbar a {
     float: left;
     display: block;
@@ -17,19 +21,24 @@
     text-align: center;
     padding: 1.2rem 2rem;
     text-decoration: none;
+    z-index: 1;
 }
 
+/* Navbar settings */
 .navbar a:hover {
     background: rgba(184, 184, 184, 0.5);
     color: black;
+    z-index: 1;
 }
 
+/* Font main settings */
 .main {
     color: #ffffff;
     margin-top: 30px;
     font-family: 'Open Sans', sans-serif;
 }
 
+/* Text Containers */
 .container {
     max-width: 960px;
     margin: 0 auto;
@@ -38,6 +47,7 @@
     padding: 0px;
 }
 
+/* Background image parallax */
 .parallax {
     background: url("/Assets/Images/Background.png") no-repeat center;
     background-size: cover;
@@ -45,9 +55,59 @@
     height: 500px;
 }
 
-.parallax2 {
-    background: url("/Assets/Images/Background2.png") no-repeat center;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 500px;
+/* Background for text */
+.text {
+    background-color: rgba(255, 255, 255, 0.336);
+    color: black;
+    font-size: 10vw; 
+    font-weight: bold;
+    margin: 0 auto; 
+    padding: 10px;
+    width: 50%;
+    text-align: center; 
+    position: sticky; 
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    mix-blend-mode: lighten;
+}
+
+/* Text */
+.text2 {
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 255, 255);
+    font-size: 10vw; 
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 10px;
+    width: 50%;
+    text-align: center; 
+    position: sticky; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -51.5%); 
+    mix-blend-mode: normal;
+}
+
+/* Label Colors */
+.label {
+    color: white;
+    padding: 8px;
+}
+  
+.yes {background-color: #4CAF50;}   /* Green */
+.no {background-color: #f32121;}    /* Red */
+
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 1; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
 }

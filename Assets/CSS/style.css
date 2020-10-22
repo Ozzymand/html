@@ -76,6 +76,7 @@ html {
     transform: translate(-50%, -100%); 
     mix-blend-mode: lighten;
     max-height: 300px;
+    max-width: 350px;
 }
 
 /* Text */
@@ -94,6 +95,7 @@ html {
     transform: translate(-50%, -100%); 
     mix-blend-mode: normal;
     max-height: 300px;
+    max-width: 350px;
 }
 
 /* Label Colors */

@@ -31,6 +31,10 @@ html {
     z-index: 1;
 }
 
+.login {
+    float: right;
+}
+
 .contact {
     float: right;
 }

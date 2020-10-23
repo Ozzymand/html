@@ -9,3 +9,5 @@ window.addEventListener('keyup', (e) => {
         cornify_add()
     }
 })
+
+/* Site creat de Toma Petrica */

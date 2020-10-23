@@ -27,6 +27,15 @@ html {
     z-index: 1;
 }
 
+.login {
+    float: right;
+}
+
+.contact {
+    float: right;
+}
+
+
 /* Navbar settings */
 .navbar a:hover {
     background: rgba(184, 184, 184, 0.5);
@@ -37,9 +46,6 @@ html {
     animation-fill-mode: forwards;
 }
 
-.contact {
-    float: right;
-}
 
 /* Font main settings */
 .main {

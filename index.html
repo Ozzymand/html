@@ -20,11 +20,9 @@
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap" rel="stylesheet">
         <!-- JS -->
         <script type="text/javascript" src="https://www.cornify.com/js/cornify.js"></script>
+        <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     </Head>
     <Body style="background-color: #1b1b1b;">
-        <?php
-        RewriteRule ^(.*)\.html$ /$1 [L,R=301];
-        >
         <!-- Font and Styles for backbone -->
         <div class="main">
             <script type="text/javascript" src="Assets/JS/index.js"></script>
@@ -33,6 +31,7 @@
                 <a href="#top"><i class="fa fa-fw fa-home"></i> Acasa</a>
                 <a href="#middle"><i class="fas fa-box"></i> Beneficii</a>
                 <a href="Assets/HTML/catalog.html"><i class="fa fa-fw fa-bookmark"></i> Catalog</a>
+                <div data-netlify-identity-button class="login"></div>
                 <div class="contact"><a href="#bottom"><i class="fa fa-fw fa-envelope"></i> Contact</a></div>
             </div>
             <!-- Content -->

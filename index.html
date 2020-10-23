@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <HTML>
     <Head>
         <link rel="icon" type="image/x-icon" href="Assets/Logo/Logo.ico"/>
@@ -19,13 +19,16 @@
         <meta property="og:image" content="Assets/Images/Thumbnail.png" href="Assets/Images/Thumbnail.png" />
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap" rel="stylesheet">
         <!-- JS -->
-        <script type="text/javascript" src="https://www.cornify.com/js/cornify.js"></script>    
+        <script type="text/javascript" src="https://www.cornify.com/js/cornify.js"></script>
     </Head>
-        <Body style="background-color: #1b1b1b;">
-            <!-- Font and Styles for backbone -->
-            <div class="main">
+    <Body style="background-color: #1b1b1b;">
+        <?php
+        RewriteRule ^(.*)\.html$ /$1 [L,R=301];
+        >
+        <!-- Font and Styles for backbone -->
+        <div class="main">
             <script type="text/javascript" src="Assets/JS/index.js"></script>
-                <!-- Navbar -->
+            <!-- Navbar -->
             <div class="navbar">
                 <a href="#top"><i class="fa fa-fw fa-home"></i> Acasa</a>
                 <a href="#middle"><i class="fas fa-box"></i> Beneficii</a>
@@ -42,39 +45,39 @@
             </div>
             <div class="container">
                 <p>Energia fotovoltaică si eoliană reprezintă o solutie viabilă pentru locatiile care nu beneficiază în prezent de racordare la reteaua natională de electricitate. În viitor, printr-o legislatie corespunzătoare aceste sisteme pot deveni rentabile si pentru consumatorii conectati la reteaua natională prin eliminarea necesitătii folosirii unor acumulatori si livrării energiei direct în reteaua natională.
-                    <p id="middle" />
-                    <br>
-                    <p>Poluare</p>
-                    <div class="graph-container">
-                        <div class="pros eco">0%</div>
-                    </div>
-                    
-                    <p>Pret</p>
-                    <div class="graph-container">
-                        <div class="pros price">115%</div>
-                    </div>
-                    
-                    <p>Putere</p>
-                    <div class="graph-container">
-                        <div class="pros power">85%</div>
-                    </div>
-                    
-                    <p>Fericire</p>
-                    <div class="graph-container">
-                        <div class="pros happiness">100%</div>
-                    </div>
-                </p> <!-- Middle Jump Text Paragraph-->
-            <p id="bottom">
-                <h1>Misiunea noastra</h1>
-                Vom lucra sa depasim limitele si vom aduce clientilor nostri beneficiul celor mai noi si perfomante tehnologii confirmadu-le si chiar depasindu-le asteptarile.
-                <br><br><br><br>                    
-                <a href="https://github.com/Ozzymand/html" target="_blank" rel="noopener noreferrer"><button class="btn github"><i class="fab fa-github"></i> Github</button></a>
-                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><button class="btn twitter"><i class="fab fa-twitter"></i> Twitter</button></a>
-                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><button class="btn facebook"><i class="fab fa-facebook"></i> Facebook</button></a>
+                <p id="middle" />
+                <br>
+                <p>Poluare</p>
+                <div class="graph-container">
+                    <div class="pros eco">0%</div>
                 </div>
-                <div class="parallax"></div>
+
+                <p>Pret</p>
+                <div class="graph-container">
+                    <div class="pros price">115%</div>
+                </div>
+
+                <p>Putere</p>
+                <div class="graph-container">
+                    <div class="pros power">85%</div>
+                </div>
+
+                <p>Fericire</p>
+                <div class="graph-container">
+                    <div class="pros happiness">100%</div>
+                </div>
+                </p> <!-- Middle Jump Text Paragraph-->
+                <p id="bottom">
+                    <h1>Misiunea noastra</h1>
+                    Vom lucra sa depasim limitele si vom aduce clientilor nostri beneficiul celor mai noi si perfomante tehnologii confirmadu-le si chiar depasindu-le asteptarile.
+                    <br><br><br><br>
+                    <a href="https://github.com/Ozzymand/html" target="_blank" rel="noopener noreferrer"><button class="btn github"><i class="fab fa-github"></i> Github</button></a>
+                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><button class="btn twitter"><i class="fab fa-twitter"></i> Twitter</button></a>
+                    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><button class="btn facebook"><i class="fab fa-facebook"></i> Facebook</button></a>
+            </div>
+            <div class="parallax"></div>
             </p>
         </div>
-    </div>
+        </div>
     </Body>
 </HTML>

@@ -85,4 +85,81 @@ html {
     max-height: 100px;
     overflow: hidden;
 }
+
+/*  Phone view  */
+@media only screen and (max-width: 699px) {
+    .navbar {
+        overflow: hidden;
+        background-image: linear-gradient(rgb(20, 182, 5), rgb(9, 117, 32)); 
+        background-color: #333333;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+    }
+    
+    .navbar a {
+        float: left;
+        display: block;
+        color: #ffffff;
+        text-align: center;
+        padding: 1.2rem 2rem;
+        text-decoration: none;
+        z-index: 1;
+    }
+
+    .navmain {
+        display: block;
+        color: #ffffff;
+        text-align: center;
+        padding: 0;
+        text-decoration: none;
+    }
+}
+/*  Desktop view    */
+@media only screen and (min-width: 700px) {
+    .navbar {
+        overflow: hidden;
+        background-image: linear-gradient(rgb(20, 182, 5), rgb(9, 117, 32)); 
+        background-color: #333333;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+    }
+    
+    .navbar a {
+        float: left;
+        display: block;
+        color: #ffffff;
+        text-align: center;
+        padding: 1.2rem 2rem;
+        text-decoration: none;
+        z-index: 1;
+    }
+
+    .navmain {
+        display: block;
+        color: #ffffff;
+        text-align: center;
+        padding: 0;
+        text-decoration: none;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .navbar a {
+        float: left;
+        display: block;
+        color: #ffffff;
+        text-align: center;
+        padding: 10px;
+        text-decoration: none;
+        z-index: 1;
+    }
+    .navmain {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
 /* Site creat de Toma Petrica */

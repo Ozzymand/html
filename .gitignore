@@ -1,4 +1,8 @@
 .git
+.github/
 .sh
 .well-known/
-.vs
+.vs/
+.firebase/
+.firebaserc
+firebase.json

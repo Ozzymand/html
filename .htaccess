@@ -1,8 +1,10 @@
 ErrorDocument 404 ./404.html
 
 RewriteEngine on
-RewriteCond %{QUERY_STRING} ^$
-RewriteRule ^index\.html$ https://ozzymand.ddns.net/? [R=301,L]
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
+Header always set Content-Security-Policy "upgrade-insecure-requests;"
 
-RewriteCond %{QUERY_STRING} ^$
-RewriteRule ^catalog\.html$ https://ozzymand.ddns.net/catalog? [R=301,L]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html [NC,L]

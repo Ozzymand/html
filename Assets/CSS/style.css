@@ -1,285 +1,335 @@
+::root {
+	--red: rgb(255, 50, 50);
+	--green: rgb(50, 255, 50);
+	--blue: rgb(50, 50, 255);
+	--black: rgb(0, 0, 0);
+	--ddark: #1b1b1b;
+	--dark: #1f1f1f;
+	--ldark: #2c2c2c;
+	--dwhite: #f1f1f1;
+	--white: #ffffff;
+	--lwhite: #d6d6d6;
+	--lgreen: rgb(20, 182, 5);
+	--dgreen: rgb(9, 117, 32);
+}
+
 html {
-    scroll-behavior: smooth;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+	scroll-behavior: smooth;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 
 /* Navbar settings */
+
 .navbar {
-    overflow: hidden;
-    background-image: linear-gradient(rgb(20, 182, 5), rgb(9, 117, 32));
-    background-color: #333333;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1;
+	overflow: hidden;
+	background-image: linear-gradient(rgb(20, 182, 5), rgb(9, 117, 32));
+	background-color: #333333;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
 }
 
+
+
 /* Navbar settings */
+
+
 .navbar a {
-    float: left;
-    display: block;
-    color: #ffffff;
-    text-align: center;
-    padding: 0;
-    text-decoration: none;
-    z-index: 1;
+	float: left;
+	display: block;
+	color: #ffffff;
+	text-align: center;
+	padding: 0;
+	text-decoration: none;
+	z-index: 1;
 }
 
 .navmain {
-    display: block;
-    color: #ffffff;
-    text-align: center;
-    padding: 0;
-    text-decoration: none;
+	display: block;
+	color: #ffffff;
+	text-align: center;
+	padding: 0;
+	text-decoration: none;
 }
 
 .login {
-    float: right;
+	float: right;
 }
 
 .contact {
-    float: right;
+	float: right;
 }
+
+
 
 
 /* Navbar settings */
+
+
 .navbar a:hover {
-    background: rgba(184, 184, 184, 0.5);
-    color: black;
-    z-index: 1;
-    animation: colorize 3s;
-    animation: switch 0.5s;
-    animation-fill-mode: forwards;
+	background: rgba(184, 184, 184, 0.5);
+	color: black;
+	z-index: 1;
+	animation: colorize 3s;
+	animation: switch 0.5s;
+	animation-fill-mode: forwards;
 }
+
+
 
 
 /* Font main settings */
+
+
 .main {
-    color: #ffffff;
-    margin-top: 30px;
-    font-family: 'Open Sans', sans-serif;
+	color: #ffffff;
+	margin-top: 30px;
+	font-family: 'Open Sans', sans-serif;
 }
+
+
 
 /* Text Containers */
+
+
 .container {
-    max-width: 960px;
-    margin: 0 auto;
-    background: #1d1d1d;
-    font-size: 24px;
-    padding: 0px;
-    text-align: center;
+	max-width: 960px;
+	margin: 0 auto;
+	background: #1d1d1d;
+	font-size: 24px;
+	padding: 0px;
+	text-align: center;
 }
+
+
 
 /* Background image parallax */
+
+
 .parallax {
-    background: url("/Assets/Images/Background.png") no-repeat center;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 500px;
+	background: url("/Assets/Images/Background.png") no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 500px;
 }
+
+
 
 /* Background for text */
+
+
 .text {
-    background-color: rgba(255, 255, 255, 0.336);
-    color: rgb(255, 255, 255);
-    font-size: 10vw;
-    font-weight: bold;
-    margin: 0 auto;
-    padding: 10px;
-    width: 50%;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -100%);
-    mix-blend-mode: lighten;
-    max-height: 400px;
-    max-width: 600px;
+	background-color: rgba(255, 255, 255, 0.336);
+	color: rgb(255, 255, 255);
+	font-size: 10vw;
+	font-weight: bold;
+	margin: 0 auto;
+	padding: 10px;
+	width: 50%;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -100%);
+	mix-blend-mode: lighten;
+	max-height: 400px;
+	max-width: 600px;
 }
+
+
 
 /* Label Colors */
+
+
 .label {
-    color: white;
-    padding: 8px;
-}
-
-.yes {
-    background-color: #4CAF50; /* Green */
-}
-
-
-.no {
-    background-color: #f32121; /* Red */
+	color: white;
+	padding: 8px;
 }
 
 /* Make sure that padding behaves as expected */
+
 * {
-    box-sizing: border-box
+	box-sizing: border-box
 }
 
+
+
 /* Container for skill bars */
+
+
 .graph-container {
-    width: 100%;
-    background-color: #ddd;
+	width: 100%;
+	background-color: #ddd;
 }
 
 .pros {
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: white;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
 }
 
 .eco {
-    color: black;
-    width: 0%;
-    background-color: #4CAF50;
+	color: black;
+	width: 0%;
+	background-color: #4CAF50;
 }
 
 .price {
-    width: 100%;
-    background-color: #2196F3;
-    animation: colorize 3s;
-    animation-fill-mode: forwards;
+	width: 100%;
+	background-color: #2196F3;
+	animation: colorize 3s;
+	animation-fill-mode: forwards;
 }
 
 .power {
-    width: 85%;
-    background-color: #f44336;
-    animation: colorize 3s;
-    animation-fill-mode: forwards;
+	width: 85%;
+	background-color: #f44336;
+	animation: colorize 3s;
+	animation-fill-mode: forwards;
 }
 
 .happiness {
-    width: 100%;
-    background-color: #ffee00;
-    animation: colorize 3s;
-    animation-fill-mode: forwards;
-    color: black;
+	width: 100%;
+	background-color: #ffee00;
+	animation: colorize 3s;
+	animation-fill-mode: forwards;
+	color: black;
 }
 
 @keyframes colorize {
-    from {
-        left: 0px;
-        background-color: gray;
-    }
+	from {
+		left: 0px;
+		background-color: gray;
+	}
 
-    to {
-        right: 200px;
-    }
+	to {
+		right: 200px;
+	}
 }
 
 @keyframes switch {
-    from {
-        left: 0px;
-        color: white;
-    }
+	from {
+		left: 0px;
+		color: white;
+	}
 
-    to {
-        right: 200px;
-        color: black;
-    }
+	to {
+		right: 200px;
+		color: black;
+	}
 }
 
 .AboutUs {
-    text-align: center;
+	text-align: center;
 }
 
 .btn {
-    background-color: #1d1d1d;
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-align: center;
-    font-size: 16px;
-    margin: 4px 2px;
-    opacity: 0.6;
-    transition: 0.3s;
+	background-color: #1d1d1d;
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-align: center;
+	font-size: 16px;
+	margin: 4px 2px;
+	opacity: 0.6;
+	transition: 0.3s;
 }
 
 .btn:hover {
-    opacity: 1
+	opacity: 1
 }
+
+
 
 /*  Phone view  */
+
+
 @media only screen and (max-width: 699px) {
-    .navbar {
+	.navbar {
         overflow: hidden;
-        background-image: linear-gradient(rgb(20, 182, 5), rgb(9, 117, 32));
-        background-color: #333333;
-        position: fixed;
-        top: 0;
-        width: 100%;
-        z-index: 1;
-    }
-
-    .navbar a {
-        float: left;
-        display: block;
-        color: #ffffff;
-        text-align: center;
-        padding: 1.2rem 2rem;
-        text-decoration: none;
-        z-index: 1;
-    }
-
-    .navmain {
-        display: block;
-        color: #ffffff;
-        text-align: center;
-        padding: 0;
-        text-decoration: none;
-    }
+	background-image: linear-gradient(rgb(20, 182, 5), rgb(9, 117, 32));
+	background-color: #333333;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
 }
 
+.navbar a {
+	float: left;
+	display: block;
+	color: #ffffff;
+	text-align: center;
+	padding: 1.2rem 2rem;
+	text-decoration: none;
+	z-index: 1;
+}
+
+.navmain {
+	display: block;
+	color: #ffffff;
+	text-align: center;
+	padding: 0;
+	text-decoration: none;
+}
+}
+
+
+
 /*  Desktop view    */
+
+
 @media only screen and (min-width: 700px) {
-    .navbar {
+	.navbar {
         overflow: hidden;
-        background-image: linear-gradient(rgb(20, 182, 5), rgb(9, 117, 32));
-        background-color: #333333;
-        position: fixed;
-        top: 0;
-        width: 100%;
-        z-index: 1;
-    }
+	background-image: linear-gradient(rgb(20, 182, 5), rgb(9, 117, 32));
+	background-color: #333333;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
 
-    .navbar a {
-        float: left;
-        display: block;
-        color: #ffffff;
-        text-align: center;
-        padding: 1.2rem 2rem;
-        text-decoration: none;
-        z-index: 1;
-    }
+.navbar a {
+	float: left;
+	display: block;
+	color: #ffffff;
+	text-align: center;
+	padding: 1.2rem 2rem;
+	text-decoration: none;
+	z-index: 1;
+}
 
-    .navmain {
-        display: block;
-        color: #ffffff;
-        text-align: center;
-        padding: 0;
-        text-decoration: none;
-    }
+.navmain {
+	display: block;
+	color: #ffffff;
+	text-align: center;
+	padding: 0;
+	text-decoration: none;
+}
 }
 
 @media only screen and (max-width: 340px) {
-    .navbar a {
-        float: left;
-        display: block;
-        color: #ffffff;
-        text-align: center;
-        padding: 10px;
-        text-decoration: none;
-        z-index: 1;
-    }
+	.navbar a {
+		float: left;
+		display: block;
+		color: #ffffff;
+		text-align: center;
+		padding: 10px;
+		text-decoration: none;
+		z-index: 1;
+	}
 
-    .navmain {
-        display: flex;
-        flex-wrap: wrap;
-    }
+	.navmain {
+		display: flex;
+		flex-wrap: wrap;
+	}
 }
+
+
 
 /* Site creat de Toma Petrica */

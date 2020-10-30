@@ -5,7 +5,7 @@ html {
 /* Navbar settings */
 .navbar {
     overflow: hidden;
-    background-image: linear-gradient(rgb(20, 182, 5), rgb(9, 117, 32)); 
+    background-image: linear-gradient(rgb(20, 182, 5), rgb(9, 117, 32));
     background-color: #333333;
     position: fixed;
     top: 0;
@@ -69,16 +69,16 @@ html {
     width: 180px;
     flex-grow: 1;
 }
-  
+
 .item:hover {
     border: 1px solid #777;
 }
-  
+
 .item img {
     width: 100%;
     height: auto;
 }
-  
+
 .desc {
     padding: 1px;
     text-align: center;
@@ -90,14 +90,14 @@ html {
 @media only screen and (max-width: 699px) {
     .navbar {
         overflow: hidden;
-        background-image: linear-gradient(rgb(20, 182, 5), rgb(9, 117, 32)); 
+        background-image: linear-gradient(rgb(20, 182, 5), rgb(9, 117, 32));
         background-color: #333333;
         position: fixed;
         top: 0;
         width: 100%;
         z-index: 1;
     }
-    
+
     .navbar a {
         float: left;
         display: block;
@@ -116,18 +116,19 @@ html {
         text-decoration: none;
     }
 }
+
 /*  Desktop view    */
 @media only screen and (min-width: 700px) {
     .navbar {
         overflow: hidden;
-        background-image: linear-gradient(rgb(20, 182, 5), rgb(9, 117, 32)); 
+        background-image: linear-gradient(rgb(20, 182, 5), rgb(9, 117, 32));
         background-color: #333333;
         position: fixed;
         top: 0;
         width: 100%;
         z-index: 1;
     }
-    
+
     .navbar a {
         float: left;
         display: block;
@@ -157,9 +158,11 @@ html {
         text-decoration: none;
         z-index: 1;
     }
+
     .navmain {
         display: flex;
         flex-wrap: wrap;
     }
 }
+
 /* Site creat de Toma Petrica */

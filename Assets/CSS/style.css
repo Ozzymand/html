@@ -8,7 +8,7 @@ html {
 /* Navbar settings */
 .navbar {
     overflow: hidden;
-    background-image: linear-gradient(rgb(20, 182, 5), rgb(9, 117, 32)); 
+    background-image: linear-gradient(rgb(20, 182, 5), rgb(9, 117, 32));
     background-color: #333333;
     position: fixed;
     top: 0;
@@ -84,16 +84,16 @@ html {
 .text {
     background-color: rgba(255, 255, 255, 0.336);
     color: rgb(255, 255, 255);
-    font-size: 10vw; 
+    font-size: 10vw;
     font-weight: bold;
-    margin: 0 auto; 
+    margin: 0 auto;
     padding: 10px;
     width: 50%;
-    text-align: center; 
-    position: absolute; 
+    text-align: center;
+    position: absolute;
     top: 50%;
-    left: 50%; 
-    transform: translate(-50%, -100%); 
+    left: 50%;
+    transform: translate(-50%, -100%);
     mix-blend-mode: lighten;
     max-height: 400px;
     max-width: 600px;
@@ -104,65 +104,79 @@ html {
     color: white;
     padding: 8px;
 }
-  
-.yes {background-color: #4CAF50;}   /* Green */
-.no {background-color: #f32121;}    /* Red */
+
+.yes {
+    background-color: #4CAF50; /* Green */
+}
+
+
+.no {
+    background-color: #f32121; /* Red */
+}
 
 /* Make sure that padding behaves as expected */
-* {box-sizing:border-box}
+* {
+    box-sizing: border-box
+}
 
 /* Container for skill bars */
 .graph-container {
-  width: 100%; /* Full width */
-  background-color: #ddd; /* Grey background */
+    width: 100%;
+    background-color: #ddd;
 }
 
 .pros {
-  text-align: center; /* Right-align text */
-  padding-top: 10px; /* Add top padding */
-  padding-bottom: 10px; /* Add bottom padding */
-  color: white; /* White text color */
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
 }
 
 .eco {
     color: black;
-    width: 0%; 
+    width: 0%;
     background-color: #4CAF50;
 }
+
 .price {
-    width: 100%; 
+    width: 100%;
     background-color: #2196F3;
     animation: colorize 3s;
     animation-fill-mode: forwards;
-} 
+}
+
 .power {
     width: 85%;
     background-color: #f44336;
     animation: colorize 3s;
     animation-fill-mode: forwards;
-} 
+}
+
 .happiness {
-    width: 100%; 
+    width: 100%;
     background-color: #ffee00;
     animation: colorize 3s;
     animation-fill-mode: forwards;
     color: black;
-} 
+}
 
 @keyframes colorize {
     from {
-        left: 0px; 
+        left: 0px;
         background-color: gray;
     }
+
     to {
         right: 200px;
     }
-  }
+}
+
 @keyframes switch {
     from {
         left: 0px;
         color: white;
     }
+
     to {
         right: 200px;
         color: black;
@@ -184,21 +198,23 @@ html {
     opacity: 0.6;
     transition: 0.3s;
 }
-  
-.btn:hover {opacity: 1}
+
+.btn:hover {
+    opacity: 1
+}
 
 /*  Phone view  */
 @media only screen and (max-width: 699px) {
     .navbar {
         overflow: hidden;
-        background-image: linear-gradient(rgb(20, 182, 5), rgb(9, 117, 32)); 
+        background-image: linear-gradient(rgb(20, 182, 5), rgb(9, 117, 32));
         background-color: #333333;
         position: fixed;
         top: 0;
         width: 100%;
         z-index: 1;
     }
-    
+
     .navbar a {
         float: left;
         display: block;
@@ -217,18 +233,19 @@ html {
         text-decoration: none;
     }
 }
+
 /*  Desktop view    */
 @media only screen and (min-width: 700px) {
     .navbar {
         overflow: hidden;
-        background-image: linear-gradient(rgb(20, 182, 5), rgb(9, 117, 32)); 
+        background-image: linear-gradient(rgb(20, 182, 5), rgb(9, 117, 32));
         background-color: #333333;
         position: fixed;
         top: 0;
         width: 100%;
         z-index: 1;
     }
-    
+
     .navbar a {
         float: left;
         display: block;
@@ -258,9 +275,11 @@ html {
         text-decoration: none;
         z-index: 1;
     }
+
     .navmain {
         display: flex;
         flex-wrap: wrap;
     }
 }
+
 /* Site creat de Toma Petrica */

@@ -1,1 +1,8 @@
 ErrorDocument 404 ./404.html
+
+RewriteEngine on
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^index\.html$ https://ozzymand.ddns.net/? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^catalog\.html$ https://ozzymand.ddns.net/catalog? [R=301,L]

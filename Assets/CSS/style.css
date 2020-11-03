@@ -333,6 +333,10 @@ html {
 	}
 }
 
-
+.tags {
+	float: right;
+	position: relative;
+	top: 100%;
+}
 
 /* Site creat de Toma Petrica */

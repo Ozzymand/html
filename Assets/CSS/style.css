@@ -15,11 +15,21 @@
 
 html {
 	scroll-behavior: smooth;
-	-webkit-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
+	/* Firefox Scrollbar */
 	scrollbar-color: auto;
 	scrollbar-width: thin;
+}
+
+/* Chromium Scrollbar */
+body::-webkit-scrollbar {
+	width: 8px;          
+}
+body::-webkit-scrollbar-track {
+	background: #19191A;      
+}
+body::-webkit-scrollbar-thumb {
+	background-color: #737373;    
+	border: 1px solid #19191A;  
 }
 
 /* Navbar settings */
@@ -142,17 +152,12 @@ html {
 	max-width: 600px;
 }
 
-
-
 /* Label Colors */
-
 
 .label {
 	color: white;
 	padding: 8px;
 }
-
-/* Make sure that padding behaves as expected */
 
 * {
 	box-sizing: border-box

@@ -19,6 +19,18 @@ html {
 	scrollbar-width: thin;
 }
 
+/* Chromium Scrollbar */
+body::-webkit-scrollbar {
+	width: 8px;          
+}
+body::-webkit-scrollbar-track {
+	background: #19191A;      
+}
+body::-webkit-scrollbar-thumb {
+	background-color: #737373;    
+	border: 1px solid #19191A;  
+}
+
 /* Navbar settings */
 .navbar {
     overflow: hidden;

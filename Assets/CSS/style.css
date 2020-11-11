@@ -18,6 +18,7 @@ html {
 	/* Firefox Scrollbar */
 	scrollbar-color: auto;
 	scrollbar-width: thin;
+	font-family: 'Open Sans', sans-serif;
 }
 
 /* Chromium Scrollbar */
@@ -76,11 +77,7 @@ body::-webkit-scrollbar-thumb {
 	float: right;
 }
 
-
-
-
 /* Navbar settings */
-
 
 .navbar a:hover {
 	background: rgba(184, 184, 184, 0.5);
@@ -91,22 +88,14 @@ body::-webkit-scrollbar-thumb {
 	animation-fill-mode: forwards;
 }
 
-
-
-
 /* Font main settings */
-
 
 .main {
 	color: #ffffff;
 	margin-top: 30px;
-	font-family: 'Open Sans', sans-serif;
 }
 
-
-
 /* Text Containers */
-
 
 .container {
 	max-width: 960px;
@@ -117,10 +106,7 @@ body::-webkit-scrollbar-thumb {
 	text-align: center;
 }
 
-
-
 /* Background image parallax */
-
 
 .parallax {
 	background: url("/Assets/Images/Background.png") no-repeat center;
@@ -129,10 +115,7 @@ body::-webkit-scrollbar-thumb {
 	height: 500px;
 }
 
-
-
 /* Background for text */
-
 
 .text {
 	background-color: rgba(255, 255, 255, 0.336);

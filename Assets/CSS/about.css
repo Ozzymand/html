@@ -1,18 +1,3 @@
-::root {
-	--red: rgb(255, 50, 50);
-	--green: rgb(50, 255, 50);
-	--blue: rgb(50, 50, 255);
-	--black: rgb(0, 0, 0);
-	--ddark: #1b1b1b;
-	--dark: #1f1f1f;
-	--ldark: #2c2c2c;
-	--dwhite: #f1f1f1;
-	--white: #ffffff;
-	--lwhite: #d6d6d6;
-	--lgreen: rgb(20, 182, 5);
-	--dgreen: rgb(9, 117, 32);
-}
-
 html {
     scroll-behavior: smooth;
     scrollbar-color: auto;
@@ -88,36 +73,6 @@ body::-webkit-scrollbar-thumb {
     text-align: center;
 }
 
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.item {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    position: relative;
-    width: 180px;
-    flex-grow: 1;
-}
-
-.item:hover {
-    border: 1px solid #777;
-}
-
-.item img {
-    width: 100%;
-    height: auto;
-}
-
-.desc {
-    padding: 1px;
-    text-align: center;
-    max-height: 100px;
-    overflow: hidden;
-}
-
 @keyframes switch {
 	from {
 		left: 0px;
@@ -129,7 +84,6 @@ body::-webkit-scrollbar-thumb {
 		color: black;
 	}
 }
-
 /*  Phone view  */
 @media only screen and (max-width: 699px) {
     .navbar {
@@ -208,5 +162,7 @@ body::-webkit-scrollbar-thumb {
         flex-wrap: wrap;
     }
 }
+
+
 
 /* Site creat de Toma Petrica */

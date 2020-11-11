@@ -7,3 +7,5 @@
 .firebaserc
 firebase.json
 key.json
+public/
+public

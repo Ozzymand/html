@@ -70,7 +70,7 @@ body::-webkit-scrollbar-thumb {
     background: #1d1d1d;
     font-size: 24px;
     padding: 0px;
-    text-align: center;
+    text-align: justify;
 }
 
 @keyframes switch {
